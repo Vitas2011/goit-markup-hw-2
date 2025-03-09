@@ -9,6 +9,16 @@ body {
     width: 1440px;
     margin: 0 auto;
 }
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+.web {
+    color: var(--iris); 
+}
+.studio {
+    color: var(--navy-blue);
+}
 /* Header */
 .header {
     height: 72px;
