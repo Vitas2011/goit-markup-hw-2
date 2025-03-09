@@ -73,7 +73,7 @@ body {
 ul {
     list-style-type: none;
 }
-a {
+li {
     text-decoration: none;
 }
 .nav-list a {
