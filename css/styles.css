@@ -6,19 +6,10 @@ body {
  background-color: #ffffff;
  
 }
-.container {
-    width: 1128px;
-    margin: 0 auto;
-}
 
 /* Header */
 .header {
-    height: 72px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
-    
 }
 .log {
     font-size: 18px;
@@ -35,29 +26,15 @@ body {
     color: #2e2f42;
 }
 .nav {
-    display: flex;
-    align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    width: 115px;
-    height: 24px;
 }
 
 
 .nav-list {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    width: 261px;
-    height: 24px;
-    
 }
 ul {
     list-style-type: none;
-    display: inline-block;
     text-decoration: none;
 }
     
@@ -82,9 +59,6 @@ ul {
 .hero {
     background-color: var(--navy-blue);
     text-align: center;
-    padding: 100px 0;
-    width: 1440px;
-    height: 600px;
 }
 
 .hero h1 {
@@ -97,22 +71,12 @@ ul {
 }
 
 .btn {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
 }
 
 /* Features */
 .features-list {
-    display: flex;
     justify-content: space-between;
 }
 h3 .features-head {
@@ -130,27 +94,21 @@ p .features-p {
 }
 /* Team */
 .team {
-    text-align: center;
     background-color: #F4F4FD;
-    padding: 40px 0;
 }
 
 .team-list {
-    display: flex;
-    gap: 20px;
     list-style: none;
     justify-content: center;
 }
 
 /* Portfolio */
 .portfolio {
-    padding: 40px 0;
+   
 }
 
 .portfolio-list {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
     list-style: none;
 }
 
@@ -159,7 +117,6 @@ p .features-p {
     background-color: #2E2F42;
     color: white;
     text-align: center;
-    padding: 40px 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
