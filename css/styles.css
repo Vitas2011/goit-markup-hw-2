@@ -20,8 +20,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.web { 
-}
+ 
 .studio {
     color: #2e2f42;
 }
@@ -30,29 +29,8 @@ body {
 }
 
 
-.nav-list {
-    justify-content: flex-start;
-}
-ul {
-    list-style-type: none;
-    text-decoration: none;
-}
-    
-.nav-list a {
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #2e2f42;
- 
-}
-
-.adrs a {
- line-height: 1.5;
- letter-spacing: 0.02em;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #434455;
- color: #404bbf;
+.adrs {
+    font-style: normal;
 }
 
 /* Hero Section */
