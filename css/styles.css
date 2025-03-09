@@ -10,7 +10,7 @@ body {
 }
 /* Header */
 .header {
-    background-color: #2E2F42; /* SLATE */
+    background: var(--white);
     height: 72px;
     display: flex;
     align-items: center;
@@ -21,22 +21,31 @@ body {
 .nav {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
 }
 
 .nav-list {
     display: flex;
-    gap: 20px;
-    list-style: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 261px;
+    height: 24px;
 }
 
 .nav-list a {
-    text-decoration: none;
-    color: white;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--navy-blue);
 }
 
 .contact-info a {
-    color: white;
-    text-decoration: none;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--slate);
 }
 
 /* Hero Section */
