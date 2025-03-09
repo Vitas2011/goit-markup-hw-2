@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    list-style-type: none;
+    
 }
 .logo {
     font-size: 18px;
@@ -47,6 +47,7 @@ body {
     gap: 40px;
     width: 261px;
     height: 24px;
+    list-style-type: none;
 }
 
 .nav-list a {
