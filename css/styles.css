@@ -4,7 +4,19 @@ body {
  line-height: 1.5;
  letter-spacing: 0.02em;
 }
-/* Header */ 
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+/* Header */
+.header {
+    background-color:var(--white);
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+} 
 .ul {
     list-style-type: none;
 }
