@@ -47,13 +47,14 @@ body {
     gap: 40px;
     width: 261px;
     height: 24px;
-    list-style-type: none;
+   
 }
 
 .nav-list a {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: var(--navy-blue);
+ list-style-type: none;
 }
 
 .contact-info a {
