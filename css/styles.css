@@ -7,7 +7,7 @@ ul {
 a {
     text-decoration: none;
 }
-.container {
+.nav-list li {
     display: inline-block;
 }
 /* Header */
