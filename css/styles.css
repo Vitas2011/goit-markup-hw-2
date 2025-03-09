@@ -22,12 +22,17 @@ body {
 .logo {
     font-size: 18px;
     font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
 }
 .web {
-    color: var(--iris); 
+    color: #4d5ae5;   
 }
 .studio {
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 .nav {
     display: flex;
