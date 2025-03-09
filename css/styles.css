@@ -52,7 +52,7 @@ body {
     gap: 40px;
     width: 261px;
     height: 24px;
-   
+    
 }
 ul {
     list-style-type: none;
@@ -60,7 +60,7 @@ ul {
 .nav-list a {
  line-height: 1.5;
  letter-spacing: 0.02em;
- color: var(--navy-blue);
+ color: #2e2f42;
 
 }
 
