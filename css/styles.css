@@ -1,20 +1,9 @@
-body {
-    font-family: "Roboto", sans-serif;
-}
 ul {
     list-style-type: none;
 }
 a {
-    text-decoration: none;
+text-decoration: none;
 }
 .nav-list li {
     display: inline-block;
-}
-/* Header */
-.header {
-    background-color: var(--white);
-    width: 1440px;
-    height: 72px;
-    align-items: center;
-    padding: 0 20px;
 }
