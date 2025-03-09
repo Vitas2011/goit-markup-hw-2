@@ -4,22 +4,7 @@ body {
  line-height: 1.5;
  letter-spacing: 0.02em;
  background-color: #ffffff;
- position:
- width: 1440px;
- height: 3300px; 
- left:  
- top: 
- box-sizing:
- display:
- align-items:
- padding:
- flex-direction:
- gap:
- border-radius:
- box-shadow:
- order:
- flex-grow:
- border-bottom:
+ 
 }
 .container {
     width: 1440px;
@@ -127,7 +112,13 @@ li {
     display: flex;
     justify-content: space-between;
 }
-
+.features-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 /* Team */
 .team {
     text-align: center;
