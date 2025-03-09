@@ -27,12 +27,9 @@ body {
 .nav {
     justify-content: flex-start;
 }
-
-
-.adrs {
+.adrs ul {
     font-style: normal;
 }
-
 /* Hero Section */
 .hero {
     background-color: var(--navy-blue);
@@ -57,7 +54,7 @@ body {
 .features-list {
     justify-content: space-between;
 }
-h3 .features-head {
+.features-head h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
