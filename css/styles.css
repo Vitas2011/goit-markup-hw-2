@@ -33,7 +33,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    text-decoration: none;
+    
 }
 .logo {
     font-size: 18px;
@@ -72,6 +72,9 @@ body {
 }
 ul {
     list-style-type: none;
+}
+a {
+    text-decoration: none;
 }
 .nav-list a {
  line-height: 1.5;
