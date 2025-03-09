@@ -9,6 +9,16 @@ body {
     width: 1440px;
     margin: 0 auto;
 }
+
+/* Header */
+.header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    list-style-type: none;
+}
 .logo {
     font-size: 18px;
     font-weight: 700;
@@ -19,15 +29,6 @@ body {
 .studio {
     color: var(--navy-blue);
 }
-/* Header */
-.header {
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-
 .nav {
     display: flex;
     align-items: center;
