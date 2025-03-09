@@ -8,21 +8,18 @@ body {
     width: 1440px;
     margin: 0 auto;
 }
-/* Header */
-.header {
-    background-color:var(--white);
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-} 
 .ul {
     list-style-type: none;
 }
 .a {
-text-decoration: none;
-}
+    text-decoration: none;
+    }
+/* Header */
+.header {
+    background-color:var(--white);
+    height: 72px;
+    align-items: center;
+} 
 .nav-list a,li {
  display: inline-block;
 }
