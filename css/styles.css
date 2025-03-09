@@ -26,7 +26,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 .web {
     color: #4d5ae5;   
@@ -44,6 +43,7 @@ body {
     height: 24px;
 }
 
+
 .nav-list {
     display: flex;
     align-items: flex-start;
@@ -54,12 +54,14 @@ body {
     height: 24px;
    
 }
-
+ul {
+    list-style-type: none;
+}
 .nav-list a {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: var(--navy-blue);
- list-style-type: none;
+
 }
 
 .contact-info a {
