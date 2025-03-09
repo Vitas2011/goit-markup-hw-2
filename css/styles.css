@@ -9,9 +9,8 @@ body {
 /* Header */
 .header {
     background-color: var(--white);
+    width: 1440px;
     height: 72px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
 }
