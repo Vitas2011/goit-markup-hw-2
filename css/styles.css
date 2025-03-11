@@ -23,32 +23,33 @@ body {
 .logo .studio {
 color: #2e2f42;
 }
- li {
+.nav-studio li {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2e2f42; 
  }
- .nav-studio:hover,
- .nav-studio:focus {
+ .nav-studio li:hover,
+ .nav-studio li:focus {
     color: #404bbf;
  }
 .nav {
     justify-content: flex-start;
 }
-.adres {
+.adres address {
     font-style: normal;
 }
-.cont-mail,
-.cont-tel {
+.cont-adres li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
- .cont-mail:hover,
- .cont-tel:focus {
+ .cont-adres:hover {
+    color: #404bbf;
+ }
+ .cont-adres:focus {
     color: #404bbf;
  }
 /* Hero Section */
