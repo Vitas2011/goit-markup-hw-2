@@ -126,8 +126,8 @@ p .features-p {
 /* Footer */
 .footer {
     background-color: #2E2F42;
-    color: white;
-    text-align: center;
+}
+a .logo {  
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -137,9 +137,9 @@ p .features-p {
 }
 
  .logo .studio {
- color: #2e2f42;
+    color: #f4f4fd;
 }
- .p {
+ p .parahraf {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
