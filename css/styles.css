@@ -8,9 +8,12 @@ body {
 }
 
 /* Header */
-header {
+.header {
     justify-content: space-between;
 }
+.nav {
+    justify-content: flex-start;
+ }
 .logo {
     font-size: 18px;
     font-weight: 700;
@@ -20,7 +23,7 @@ header {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo {
+.studio {
 color: #2e2f42;
 }
 .nav-studio li {
@@ -34,13 +37,11 @@ color: #2e2f42;
  .nav-studio li:focus {
     color: #404bbf;
  }
-.nav {
-    justify-content: flex-start;
-}
-address {
+
+.address {
     font-style: normal;
 }
-.address-ul > li {
+ li .cont-adres {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -49,7 +50,7 @@ address {
  li .cont-adres:hover {
     color: #404bbf;
  }
- .cont-adres:focus {
+ li .cont-adres:focus {
     color: #404bbf;
  }
 /* Hero Section */
