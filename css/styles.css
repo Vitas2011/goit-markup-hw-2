@@ -8,7 +8,7 @@ body {
 }
 
 /* Header */
-.header {
+header {
     justify-content: space-between;
 }
 .logo {
@@ -20,7 +20,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo .studio {
+.logo {
 color: #2e2f42;
 }
 .nav-studio li {
@@ -37,16 +37,16 @@ color: #2e2f42;
 .nav {
     justify-content: flex-start;
 }
-.adres address {
+address {
     font-style: normal;
 }
-.cont-adres li {
+.address-ul > li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
- .cont-adres:hover {
+ li .cont-adres:hover {
     color: #404bbf;
  }
  .cont-adres:focus {
