@@ -11,9 +11,9 @@ body {
 .header {
     justify-content: space-between;
 }
-.nav {
+/*.nav {
     justify-content: flex-start;
- }
+ }*/
 .logo {
     font-size: 18px;
     font-weight: 700;
@@ -23,7 +23,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.studio {
+.logo .studio {
 color: #2e2f42;
 }
 .nav-studio li {
@@ -40,8 +40,6 @@ color: #2e2f42;
 
 .address {
     font-style: normal;
-}
- li .cont-adres {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
