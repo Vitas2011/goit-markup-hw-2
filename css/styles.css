@@ -30,20 +30,27 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
  }
- li:hover,
- li:focus {
+ .nav-studio:hover,
+ .nav-studio:focus {
     color: #404bbf;
  }
-.studio {
-    color: #2e2f42;
-}
 .nav {
     justify-content: flex-start;
 }
-.address {
+.adres {
     font-style: normal;
 }
-
+.cont-mail,
+.cont-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+ .cont-mail:hover,
+ .cont-tel:focus {
+    color: #404bbf;
+ }
 /* Hero Section */
 .hero {
     background-color: var(--navy-blue);
