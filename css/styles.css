@@ -118,10 +118,10 @@ h2 .our-portfolio {
     color: #2e2f42;
 }
 
- /*.portfolio-list {
+ .portfolio-list {
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
- }*/
+ }
 
 /* Footer */
 .footer {
