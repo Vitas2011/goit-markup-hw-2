@@ -110,7 +110,7 @@ p .features-p {
     text-transform: capitalize;
     color: #2e2f42;
 }
-ul .team-list {
+.team-list-section {
     background-color: #FFFFFF;
 }
 
@@ -148,6 +148,8 @@ a .logo {
 }
  p .parahraf {
     line-height: 1.5;
-    color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+:root {
+    color: #F4F4FD;
 }
