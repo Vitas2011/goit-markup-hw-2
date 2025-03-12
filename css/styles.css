@@ -22,7 +22,7 @@ body {
     color: #4d5ae5;
 }
 
-.studio {
+.studio-web {
 color: #2e2f42;
 }
 
@@ -33,7 +33,6 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42; 
  }
 
  .nav-studio :hover,
@@ -42,19 +41,21 @@ color: #2e2f42;
  }
 
 
-.address {
+.adres {
     font-style: normal;
+}
+.cont-adres {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
- li .cont-adres:hover {
+ .cont-adres:hover {
     color: #404bbf;
  }
 
- li .cont-adres:focus {
+ .cont-adres:focus {
     color: #404bbf;
  }
 
