@@ -22,13 +22,13 @@ body {
     color: #4d5ae5;
 }
 
-.logo .studio {
+.studio {
 color: #2e2f42;
 }
 
-.nav-studio li,
-.nav-portfolio li,
-.nav-contacts li {
+.nav-studio,
+.nav-portfolio,
+.nav-contacts {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -36,8 +36,8 @@ color: #2e2f42;
     color: #2e2f42; 
  }
 
- .nav-studio li:hover,
- .nav-studio li:focus {
+ .nav-studio :hover,
+ .nav-studio :focus {
     color: #404bbf;
  }
 
@@ -83,7 +83,7 @@ color: #2e2f42;
 }
 .hero-button:hover,
 .hero-button:focus {
-   color: #404BBF;
+    background-color: #404BBF;
 }
 
 /* Features */
