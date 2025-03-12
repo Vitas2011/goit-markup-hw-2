@@ -102,14 +102,25 @@ p .features-p {
 .team {
     background-color: #F4F4FD;
 }
-
-.team-list {
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.li .team-list-section {
+    background-color: #FFFFFF;
+}
+/*.lu .team-list {
     list-style: none;
     justify-content: center;
-}
+}*/
+
 
 /* Portfolio */
-h2 .our-portfolio {
+.h2 .our-portfolio {
     font-size: 36px; 
     line-height: 1.11;
     text-align: center;
@@ -141,6 +152,6 @@ a .logo {
 }
  p .parahraf {
     line-height: 1.5;
-    color: var(--cloud);
+    color: #F4F4FD;
     letter-spacing: 0.02em;
 }
