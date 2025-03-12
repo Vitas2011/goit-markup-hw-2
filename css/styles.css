@@ -33,6 +33,7 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#2e2f42;
  }
 
  .nav-studio :hover,
@@ -41,23 +42,21 @@ color: #2e2f42;
  }
 
 
-.adres {
+address {
     font-style: normal;
 }
-.cont-adres {
+.adres-contact {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
- .cont-adres:hover {
+ .adres-contact:hover,
+ .adres-contact:focus {
     color: #404bbf;
  }
 
- .cont-adres:focus {
-    color: #404bbf;
- }
 
 /* Hero Section */
 .hero {
