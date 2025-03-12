@@ -110,17 +110,13 @@ p .features-p {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.li .team-list-section {
+ul .team-list {
     background-color: #FFFFFF;
 }
-/*.lu .team-list {
-    list-style: none;
-    justify-content: center;
-}*/
 
 
 /* Portfolio */
-.h2 .our-portfolio {
+h2  {
     font-size: 36px; 
     line-height: 1.11;
     text-align: center;
