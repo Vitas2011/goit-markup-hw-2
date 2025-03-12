@@ -81,8 +81,8 @@ color: #2e2f42;
     color: #ffffff;
     cursor: pointer;
 }
-.button .hero-button:hover,
-.button .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
    color: #404BBF;
 }
 
@@ -157,7 +157,7 @@ a .logo {
 :root {
     color: #F4F4FD;
 }
- p .parahraf {
+.parahraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
