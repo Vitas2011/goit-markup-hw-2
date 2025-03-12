@@ -26,9 +26,7 @@ body {
 color: #2e2f42;
 }
 
-.nav-studio,
-.nav-portfolio,
-.nav-contacts {
+.nav-studio-index {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -36,16 +34,16 @@ color: #2e2f42;
     color:#2e2f42;
  }
 
- .nav-studio :hover,
- .nav-studio :focus {
+ .nav-studio-index:hover,
+ .nav-studio-index:focus {
     color: #404bbf;
  }
 
 
-address {
+address .adres {
     font-style: normal;
 }
-.adres-contact {
+a .adres-contact {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
