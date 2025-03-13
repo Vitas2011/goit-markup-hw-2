@@ -54,6 +54,9 @@ a .adres-contact {
     letter-spacing: 0.02em;
    /* color: #434455;*/
 }
+.adres-contact {
+    color: #434455;  
+}
 
  .adres-contact:hover,
  .adres-contact:focus {
