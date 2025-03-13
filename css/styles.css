@@ -5,6 +5,7 @@ body {
  letter-spacing: 0.02em;
  background-color: #ffffff;
  text-decoration: none;
+ list-style-type: none;
 }
 
 /* Header */
